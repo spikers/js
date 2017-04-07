@@ -1,0 +1,764 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"activity",
+				"activityObject"
+			],
+			[
+				"activit",
+				"activityObject"
+			],
+			[
+				"e",
+				"emit"
+			],
+			[
+				"secondP",
+				"secondPersonObject"
+			],
+			[
+				"parse",
+				"parseJSON"
+			],
+			[
+				"secondPerson",
+				"second_person"
+			],
+			[
+				"rest",
+				"restaurantListObject"
+			],
+			[
+				"req",
+				"req"
+			],
+			[
+				"promi",
+				"promiseArray"
+			],
+			[
+				"getForm",
+				"getFormattedFormData"
+			],
+			[
+				"sgtData",
+				"sgtDataProvider"
+			],
+			[
+				"grade",
+				"gradeTextNode"
+			],
+			[
+				"update",
+				"updateStudentList"
+			],
+			[
+				"querySe",
+				"querySelector"
+			],
+			[
+				"calculate",
+				"calculateAverage"
+			],
+			[
+				"addStu",
+				"addStudentToDom"
+			],
+			[
+				"aver",
+				"averageGrade"
+			],
+			[
+				"querySele",
+				"querySelectorAll"
+			],
+			[
+				"clear",
+				"clearInputs"
+			],
+			[
+				"validat",
+				"validateArray"
+			],
+			[
+				"validate",
+				"validatedArr"
+			],
+			[
+				"input",
+				"inputInformation"
+			],
+			[
+				"inventor",
+				"inventorListByAge"
+			],
+			[
+				"bo",
+				"border tile.png\tw:211 h:222"
+			],
+			[
+				"piece",
+				"piecePointer"
+			],
+			[
+				"sampleHori",
+				"sampleHorizontalDouble"
+			],
+			[
+				"doubl",
+				"sampleVerticalDouble"
+			],
+			[
+				"sample",
+				"sampleDiagonalNegative"
+			],
+			[
+				"rightMost",
+				"rightMostCalculation"
+			],
+			[
+				"eq",
+				"equation"
+			],
+			[
+				"operation",
+				"operationAndNumberString"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"button",
+				"buttonCharacter"
+			],
+			[
+				"plus",
+				"plusOrMinusOperator"
+			],
+			[
+				"evaluate",
+				"evaluateFormula"
+			],
+			[
+				"equation",
+				"equationStartPoint"
+			],
+			[
+				"index",
+				"indexForOperator"
+			],
+			[
+				"u",
+				"unevaluatedBlock"
+			],
+			[
+				"multipl",
+				"multiplyAndDivisionCounter"
+			],
+			[
+				"every",
+				"everythingElse"
+			],
+			[
+				"everth",
+				"everythingElse"
+			],
+			[
+				"first",
+				"first_card_clicked"
+			],
+			[
+				"not",
+				"notChecking"
+			],
+			[
+				"randomize",
+				"randomizeCards"
+			],
+			[
+				"reset",
+				"reset_stats"
+			],
+			[
+				"increm",
+				"incrementAttempts"
+			],
+			[
+				"match",
+				"match_counter"
+			],
+			[
+				"second",
+				"second_card_clicked"
+			],
+			[
+				"sec",
+				"secondCard"
+			],
+			[
+				"seco",
+				"second_card_clicked"
+			],
+			[
+				"shipping",
+				"shippingDetails"
+			],
+			[
+				"departDay",
+				"departDayOfWeek"
+			],
+			[
+				"trans",
+				"translateY()"
+			],
+			[
+				"text",
+				"text-top"
+			],
+			[
+				"te",
+				"text-top"
+			],
+			[
+				"top",
+				"text-top"
+			],
+			[
+				"inline",
+				"inline-flex"
+			],
+			[
+				"tra",
+				"translateY()"
+			],
+			[
+				"space-",
+				"space-between"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "Package Control: install",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Tim/Desktop/lfz/test/js"
+	],
+	"file_history":
+	[
+		"/Users/Tim/Desktop/timfengineering/index.html",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/src/components/ResultsItem.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/bundle.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing/hangout_router.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/authentication/fb_routes.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/authentication/facebook_passport.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/server.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/dev_server.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/config.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/change_active_domain.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing/handle_put.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/webpack.config.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing/router.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/package.json",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing/api_router.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/dist/login.html",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/node_modules/.bin/webpack-dev-server",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/js/chat.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/js/socket.io.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/css/style.css",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/webpack.deploy.config.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/src/components/Header.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/models/user.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/models/hangout.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing/socketio_client.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/chat.html",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/dist/index.html",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/js/fbLogin.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing/yelp_router.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing/parse_json.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing/randomize.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing/restaurant_activity.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing/yelp_data.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/yelp.html",
+		"/Users/Tim/Desktop/testtime.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/login.html",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/fb_login.html",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/js/fb_routes.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/choose.html",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/js/facebook_passport.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/public/index.html",
+		"/Users/Tim/Desktop/deletetest2.js",
+		"/Users/Tim/Desktop/deletetest.js",
+		"/Users/Tim/Desktop/deletetest3.js",
+		"/Users/Tim/Desktop/notes.md",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing/convert_to_object.js",
+		"/Users/Tim/Desktop/forever .:node_modules:babel-cli:bin:babel-node.js",
+		"/Users/Tim/Desktop/practice.js",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/dist/style.css",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/.babelrc",
+		"/Users/Tim/Desktop/index.html",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/choosescreen2.html",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/index.html",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/js/fbLogin.js",
+		"/Users/Tim/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Tim/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/Tim/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/login.html",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/css/style.css",
+		"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/models/index.html",
+		"/Users/Tim/Desktop/lfz/test/mongoosetest/start.js",
+		"/Users/Tim/Desktop/lfz/test/mongooseexpressgenerator2/routes.js",
+		"/Users/Tim/Desktop/lfz/test/mongooseexpressgenerator2/lib/controller.js",
+		"/Users/Tim/Desktop/lfz/test/mongooseexpressgenerator2/lib/facade.js",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/php_user_auth_basic/login_handler.php",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/php_user_auth_basic/login_form.php",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/login_handler.php",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/login_form.php",
+		"/Users/Tim/Desktop/lfz/test/chatclient1/tpl/page.jade",
+		"/Users/Tim/Desktop/lfz/test/apiserver3/app/models/bear.js",
+		"/Users/Tim/Desktop/lfz/Algorithms/05. Stacks/Level 1/stack-L1.js",
+		"/Users/Tim/Desktop/lfz/Algorithms/05. Stacks/Level 1/index.html",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/js_firebase_intro/index.html",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/js_firebase_intro/hard.js",
+		"/Users/Tim/Desktop/AngularComponents/index.html",
+		"/Users/Tim/Desktop/AngularComponents/student-list.html",
+		"/Users/Tim/Desktop/AngularComponents/student-list.js",
+		"/Users/Tim/Desktop/AngularComponents/style.css",
+		"/Users/Tim/Desktop/AngularComponents/script.js",
+		"/Users/Tim/Desktop/lfz/firebaseTest/script.js",
+		"/Users/Tim/Desktop/lfz/fptest/Stripe/script.js",
+		"/Users/Tim/Desktop/lfz/fptest/Stripe/index.html",
+		"/Users/Tim/Desktop/deleteserver/deleteserver.js",
+		"/Users/Tim/Desktop/base_data.sql",
+		"/Users/Tim/Desktop/test.html",
+		"/Users/Tim/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Tim/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Tim/Desktop/deletethis.html",
+		"/Users/Tim/Desktop/lfz/test/apiservertest/src/config.js",
+		"/Users/Tim/Desktop/lfz/test/apiservertest/src/api/some-entity/index.js",
+		"/Users/Tim/Desktop/lfz/test/apiservertest/src/api/auth/index.js",
+		"/Users/Tim/Desktop/lfz/test/apiservertest/src/api/auth/index.test.js",
+		"/Users/Tim/Desktop/lfz/test/apiservertest/src/api/user/index.js",
+		"/Users/Tim/Desktop/lfz/test/apiservertest/src/api/index.js",
+		"/Users/Tim/Desktop/lfz/test/apiservertest/src/app.js",
+		"/Users/Tim/Desktop/lfz/test/apiservertest/node_modules/eslint/lib/config/environments.js",
+		"/Users/Tim/Desktop/lfz/test/apiservertest/node_modules/yeoman-environment/lib/environment.js",
+		"/data/db/storage.bson",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/php_mysql/index_insert.php",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/php_mysql/index_select.php",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/php_mysql/mysql_connect.php",
+		"/Users/Tim/Desktop/lfz/stuff.php",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/php_mysql/.gitignore",
+		"/Users/Tim/Desktop/stuff.php",
+		"/Users/Tim/Desktop/lfz/react_starter/src/components/add_form.js",
+		"/Users/Tim/Desktop/lfz/react_starter/src/components/app.css",
+		"/Users/Tim/Desktop/lfz/react_starter/src/data/tododata.js",
+		"/Users/Tim/Desktop/inde.html",
+		"/Users/Tim/Desktop/haha.js",
+		"/Users/Tim/Desktop/lfz/react_starter/src/components/todo_list.js",
+		"/Users/Tim/Desktop/lfz/react_starter/src/components/app.js",
+		"/Users/Tim/Desktop/lfz/react_starter/src/index.js",
+		"/Users/Tim/Desktop/lfz/react_starter/dist/index.html",
+		"/Users/Tim/Desktop/lfz/react_starter/src/components/component.js",
+		"/Users/Tim/Desktop/lfz/react_starter/webpack.config.js",
+		"/Users/Tim/Desktop/lfz/react_starter/dev_server.js",
+		"/Users/Tim/Desktop/lfz/react_starter/package.json",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/mysql_basics/mysql_queries.sql",
+		"/Users/Tim/Desktop/sql",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/ang_controllers/script.js",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/ang_controllers/index.html",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/ang_services_creation/script.js",
+		"/Users/Tim/Desktop/lfz/prototypes_C1.17/ang_services_creation/index.html",
+		"/Users/Tim/Desktop/sc.js",
+		"/Users/Tim/Desktop/in.html",
+		"/Users/Tim/Desktop/script.js",
+		"/Users/Tim/Desktop/lfz/SGT/script.js",
+		"/Users/Tim/Desktop/lfz/SGT/index.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Tim/Desktop/lfz/C1.17_blind_date",
+			"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/authentication",
+			"/Users/Tim/Desktop/lfz/C1.17_blind_date",
+			"/Users/Tim/Desktop/lfz/C1.17_blind_date/public,/Users/Tim/Desktop/lfz/C1.17_blind_date/src",
+			"/Users/Tim/Desktop/lfz/C1.17_blind_date/dist,/Users/Tim/Desktop/lfz/C1.17_blind_date/app",
+			"/Users/Tim/Desktop/lfz/C1.17_blind_date",
+			"/Users/Tim/Desktop/lfz/C1.17_blind_date/app/routing",
+			"<current file>",
+			"/Users/Tim/Desktop/lfz/C1.17_blind_date/public",
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"import domain",
+			"wynk.world",
+			"domain",
+			"wynk.world",
+			" port ",
+			"port",
+			"localhost",
+			"localhost:8000",
+			"local",
+			"localhost",
+			"localho",
+			"resolve",
+			"path",
+			"localhost",
+			"req.body",
+			"changeRoom",
+			"'join'",
+			"join",
+			"console.",
+			"chatHistory",
+			"changeRoom",
+			"addChatTo",
+			"greetings",
+			"for",
+			"changeRoom",
+			"join",
+			"init",
+			"change",
+			"sendDisconn",
+			"sendConnection",
+			"changeRoom",
+			"socket.join",
+			"join",
+			"joinRoom",
+			"leaveAllRooms",
+			"room changed to",
+			"/:",
+			"user",
+			"foundHangout",
+			".id",
+			"108",
+			"10",
+			".getElementBy",
+			"for",
+			"return",
+			"width",
+			"submitMessage",
+			"userObject",
+			"data.given",
+			"button",
+			"data.given_",
+			"for",
+			"req.body.lat",
+			"req.body.coor",
+			"req.body.",
+			"categories",
+			"get_restaurant",
+			"restaurant",
+			"matching_alg",
+			"res.json",
+			"activityObject",
+			"console.log(i",
+			"mission",
+			"missino",
+			"miss",
+			"solo",
+			"solo mission",
+			"res.json",
+			"open stuff",
+			"the hangout",
+			"this is",
+			"email'",
+			"first_person",
+			"userid",
+			"basic",
+			"user is here",
+			"10155863040702564",
+			"hand",
+			".to",
+			"to",
+			".to",
+			"hangout",
+			"162",
+			"nickname",
+			"prefer",
+			"handle",
+			"access",
+			"findOne",
+			"new",
+			"nightlife",
+			"categories",
+			"categ",
+			"catego",
+			"cate",
+			"cat",
+			"cate",
+			"categ",
+			"qs",
+			"user/",
+			"oid",
+			"hangouts",
+			"suitable hangout found",
+			"suitable",
+			"chat1",
+			"activeCha",
+			"room",
+			"keypress",
+			"20000",
+			"getRoom",
+			"return Objec",
+			"sharon",
+			"Room 1",
+			"second_",
+			"room",
+			"chat",
+			" ",
+			"restaurant",
+			"/user",
+			"limit =",
+			"limit",
+			"limit: ",
+			"type of",
+			".push",
+			"friend",
+			".url",
+			"url ",
+			"reuq",
+			"mongoose.promise"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"wynk.world",
+			"function (",
+			"hangoutRouter",
+			"'",
+			"yelpRouter",
+			";",
+			"",
+			"td",
+			"<td>",
+			"td",
+			"col",
+			"row",
+			"col00",
+			"0",
+			"currentPlusOperator",
+			"nextPlusOperator",
+			"button-row-four",
+			"cardFlip",
+			"images",
+			"card-back",
+			"/images/card_back.gif",
+			"class=\"back\">",
+			"class=\"front\">",
+			"class=\"back\"1",
+			"10vmax",
+			"h3"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/Tim/Desktop/lfz/test/js"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 219.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
