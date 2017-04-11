@@ -1,0 +1,20 @@
+{
+  "name": "webpacktest2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && webpack",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
