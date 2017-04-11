@@ -1,4 +1,4 @@
 module.exports = {
   hi: 'oh hi there',
-  event: 'timjs'
+  event: 'timjs hotreoload'
 };
