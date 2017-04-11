@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timeout Test</title>
+  <script>
+    var ONE_MILLION = 1000000;
+    var ONE_BILLION = 1000000000;
+
+    var start = window.performance.now();
+    window.setInterval(function () {
+      var insideStart = window.performance.now();
+      for (var i = 0; i < ONE_MILLION; i++) {
+        var _ = Math.random();
+      }
+      console.log('Inside:', window.performance.now() - insideStart);
+      console.log('Total :', window.performance.now(), '\n');
+    }, 10000)
+  </script>
+</head>
+<body>
+  <h1>Conclusion</h1>
+  <p>It looks like window.setInterval starts the counter immediately after the previous counter ends.</p>
+  <p>So let's say we have an operation that takes 5 seconds. Timeout is 1 minute. Start: 00:00:00 in hh:ii:ss. It'll run the set interval at 00:01:00, 00:02:00, 00:03:00, as opposed to 00:01:00, 00:02:05, 00:03:10. Data to back it up:</p>
+  <pre>
+    Inside: 16.465000000000146
+    Total : 10139.455000000002 
+
+    Inside: 17.095000000001164
+    Total : 20141.15 
+
+    Inside: 20.465000000003783
+    Total : 30673.655000000002 
+
+    Inside: 15.790000000000873
+    Total : 40629.795 
+
+    Inside: 18.810000000004948
+    Total : 50141.735 
+  </pre>
+</body>
+</html>
