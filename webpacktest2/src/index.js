@@ -1,6 +1,10 @@
 var messages = require('./messages');
 
-window.addEventListener('load', function () {
-  document.getElementById('app');
-  app.innerHTML = `<p>Hi ${messages.event} my friend, ${messages.hi}</p>`;
-});
+var newMessage = () => (`<p>message is this: ${messages.hi} heyo`);
+
+document.getElementById('app');
+app.innerHTML = newMessage();
+
+if (module.hot) {
+  module.hot.accept();
+}

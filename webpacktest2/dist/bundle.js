@@ -63,28 +63,33 @@
 /******/ 	__webpack_require__.p = "/dist";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var messages = __webpack_require__(1);
+
+document.getElementById('app');
+app.innerHTML = `<p>Hi ${messages.event} my friend, ${messages.hi}</p>`;
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
 
 module.exports = {
   hi: 'oh hi there',
-  event: 'timjs'
+  event: 'timjs hothothothot'
 };
 
 /***/ }),
-/* 1 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var messages = __webpack_require__(0);
+module.exports = __webpack_require__(0);
 
-window.addEventListener('load', function () {
-  document.getElementById('app');
-  app.innerHTML = `<p>Hi ${messages.event} my friend, ${messages.hi}</p>`;
-});
 
 /***/ })
 /******/ ]);
