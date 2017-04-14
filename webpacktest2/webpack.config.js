@@ -19,6 +19,7 @@ var plugins = PRODUCTION
     ]
 
 module.exports = {
+  devtool: 'source-map',
   entry: entry,
   plugins: plugins,
   module: {
