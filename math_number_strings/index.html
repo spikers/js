@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Math with Strings</title>
+  <script>
+    window.addEventListener('load', function () {
+      //Totally unnecessary, but good to practice
+      initialize();
+    })
+
+    function initialize() {
+      //Number String and Decimal Number String
+      var str1 = '12';
+      console.log(typeof str1);
+
+      var str2 = '1.2';
+      console.log(typeof str2);
+
+      console.log(parseFloat(str1) + parseFloat(str2));
+      console.log(str1 - str2);
+      console.log(str1 * str2);
+      console.log(str1 / str2);
+    }
+  </script>
+</head>
+<body>
+  <h1>Conclusion</h1>
+  <p>Doing math on strings seems to work in the case of decimals and ints. We need to parse the addition (obviously), but all other basic operations (-, *, /) work vanilla. I'll need further testing for Math library operations and Modulus (%).</p>
+</body>
+</html>
