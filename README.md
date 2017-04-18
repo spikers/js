@@ -12,3 +12,8 @@ What operations work on strings which contain numbers?
 * Complete: Only addition needs to be parseFloat ~Test basic math operations (+-*/)~ 
 * Test Modulus (%).
 * Test Math Library operations (Math.floor, Math.round, Math.sqrt, etc).
+
+## Object Property Creation
+Are properties in objects created if they're not set? Testing if `obj['testkey']` and `console.log(obj)` will output the `'testkey'` key.
+* Complete: Just writing the key doesn't do anything, it needs to be set. ~Make an object and write an key. THen write a new key and set it. Then write a new key and set it to `undefined`.~
+* Check if it's in `Object.keys(obj)`. 
