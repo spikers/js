@@ -24,8 +24,12 @@ module.exports = {
   plugins: plugins,
   module: {
     loaders: [{
-      test: '/\.js$/',
+      test: '/\.(js|jsx)$/',
       loaders: ['babel-loader'],
+      exclude: '/node_modules'
+    }, {
+      test: /\.(png|jpg|gif)$/,
+      loaders: ['file-loader'],
       exclude: '/node_modules'
     }]
   },
