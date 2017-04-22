@@ -28,14 +28,14 @@ module.exports = {
       loaders: ['babel-loader'],
       exclude: '/node_modules'
     }, {
-      test: /\.(png|jpg|gif)$/,
-      loaders: ['file-loader'],
+      test: /\.(png|jpe?g|gif)$/,
+      loaders: ['url-loader?limit=20000&name=images/[hash:12].[ext]'],
       exclude: '/node_modules'
     }]
   },
   output: {
     path: path.join(__dirname, 'dist'),
-    publicPath: '/dist',
+    publicPath: '/dist/',
     filename: 'bundle.js'
   }
 }
