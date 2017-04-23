@@ -17,3 +17,7 @@ What operations work on strings which contain numbers?
 Are properties in objects created if they're not set? Testing if `obj['testkey']` and `console.log(obj)` will output the `'testkey'` key.
 * Complete: Just writing the key doesn't do anything, it needs to be set. ~Make an object and write an key. THen write a new key and set it. Then write a new key and set it to `undefined`.~
 * Check if it's in `Object.keys(obj)`. 
+
+## Bind Function Call
+Consider `fx.bind(this, a, b)(INFO)`, where does `INFO` go?
+* Write a bind function and find the information in the `INFO` portion. 
