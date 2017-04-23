@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bind Function Call</title>
+  <script>
+    function arbitraryFunction(firstParam, secondParam, thirdParam) {
+      console.log('firstParam:', firstParam);
+      console.log('secondParam', secondParam);
+      console.log('thirdParam', thirdParam);
+      console.log('this', this);
+      console.log('event', event);
+      console.log('arguments', arguments);
+    }
+
+    // console.log('First Run:');
+    // arbitraryFunction('firstThing', 'secondThing');
+    // This worked as expected. Now for the fun part.
+
+    // var fDef1 = arbitraryFunction.bind(null, 'a', 'b');
+    // fDef1();
+    // This was literally the same. As expected.
+
+    var fDef2 = arbitraryFunction.bind(null, 'x', 'y');
+    fDef2('LOOK FOR ME');
+  </script>
+</head>
+<body>
+  <h1>Conclusions</h1>
+  <p>I probably could have googled this. It looks like it's just added onto the parameters in arguments. </p>
+  <p>Here's what I get: </p>
+    <pre>
+      ["x", "y", "LOOK FOR ME"]
+    </pre>
+  So it actually ADDS the argument, to be the third parameter. Very interesting behavior. This will be hugely useful. 
+  </p>
+</body>
+</html>
