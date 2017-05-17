@@ -6,7 +6,7 @@ Currently In the Works:
 Testing if resolving a huge for-loop asyncronously vs completing a huge for-loop without asyncronous operations, which is faster?
 * Complete: It's faster by 10%!? ~Run a long operation (Math.random(), ONE_BILLION times) in 2 for-loops without a promise. Then do it with a promise. Compare times.~
 * Verify Nonsensical Results with other tests.
-* Try out Async / Await
+* Try out Async / Await.
 
 ## Math Operations with Number Strings
 What operations work on strings which contain numbers?
