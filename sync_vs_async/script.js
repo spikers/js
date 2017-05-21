@@ -1,4 +1,5 @@
-const limit = 1000000; //Million
+cost ONE_MILLION = 1000000;
+const limit = ONE_MILLION;
 
 function sync() {
   let start = getNow();
@@ -73,4 +74,3 @@ function getNow() {
 
 //sync();
 stimeout();
-
