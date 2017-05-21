@@ -1,5 +1,5 @@
 # Javascript
-Practice for Javascript or ES6
+Practice for Javascript or ES6. Projects will be added as they come into my imagination. 
 
 Currently In the Works:
 ## Async vs Sync
