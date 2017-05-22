@@ -22,6 +22,7 @@ Are properties in objects created if they're not set? Testing if `obj['testkey']
 ## Bind Function Call
 Consider `fx.bind(this, a, b)(INFO)`, where does `INFO` go?
 * Complete: Found that `INFO` will just take the place of the third paramter. So parameter order matters, the last ones should be the ones you can fill in later. Is there a way to fill it out of order? I don't think so, I could be wrong. ~Write a bind function and find the information in the `INFO` portion.~
+* Check what happens when you have an event listener, or something that had a last parameter.
 
 ## Too Many IDs
 I commonly use CSS files where if you switch the order of the classes, everything explodes. It's infuriating. 
