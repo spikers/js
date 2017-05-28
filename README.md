@@ -30,3 +30,6 @@ I commonly use CSS files where if you switch the order of the classes, everythin
 Some consider putting IDs on everything bad practice, I call it consistency. Here, I explore the downsides of adding a lot of IDs and seeing how it affects render time and traversing time. Does clouding up the DOM Namespace affect performance that much?
 * See render time and traversing time for 10 IDs, 10 classes, 10 unique tags and compare it to traversing time for 10,000 IDs
 * See render time and traversing time for 1 million IDs (If it even allows me to open it?)
+
+## Fast Push
+* Array.prototype.push is very slow. see if you can create a faster one. 
