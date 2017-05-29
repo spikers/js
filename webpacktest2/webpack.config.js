@@ -44,6 +44,9 @@ const cssLoader = PRODUCTION
 
 
 module.exports = {
+  externals: {
+    'jquery': 'jQuery' //jQuery is external and available at the global variable jquery, do not include
+  },
   devtool: 'source-map',
   entry: entry,
   plugins: plugins,
@@ -65,6 +68,6 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     publicPath: PRODUCTION ? '/' : '/dist/',
-    filename: 'bundle.js'
+    filename: PRODUCTION ? 'bundle.hash:12.min.js' : 'bundle.js'
   }
 }
