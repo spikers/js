@@ -1,17 +1,18 @@
 # Javascript
-Practice for Javascript or ES6
+Practice for Javascript or ES6. Projects will be added as they come into my imagination. 
 
 Currently In the Works:
 ## Async vs Sync
 Testing if resolving a huge for-loop asyncronously vs completing a huge for-loop without asyncronous operations, which is faster?
 * Complete: It's faster by 10%!? ~Run a long operation (Math.random(), ONE_BILLION times) in 2 for-loops without a promise. Then do it with a promise. Compare times.~
 * Verify Nonsensical Results with other tests.
+* Try out Async / Await.
 
 ## Math Operations with Number Strings
 What operations work on strings which contain numbers?
 * Complete: Only addition needs to be parseFloat ~Test basic math operations (+-*/)~ 
-* Test Modulus (%).
-* Test Math Library operations (Math.floor, Math.round, Math.sqrt, etc).
+* Complete: Modulus works. ~Test Modulus (%).~
+* Complete: Math square root works. ~Test Math Library operations (Math.floor, Math.round, Math.sqrt, etc).~
 
 ## Object Property Creation
 Are properties in objects created if they're not set? Testing if `obj['testkey']` and `console.log(obj)` will output the `'testkey'` key.
@@ -21,10 +22,14 @@ Are properties in objects created if they're not set? Testing if `obj['testkey']
 ## Bind Function Call
 Consider `fx.bind(this, a, b)(INFO)`, where does `INFO` go?
 * Complete: Found that `INFO` will just take the place of the third paramter. So parameter order matters, the last ones should be the ones you can fill in later. Is there a way to fill it out of order? I don't think so, I could be wrong. ~Write a bind function and find the information in the `INFO` portion.~
+* Check what happens when you have an event listener, or something that had a last parameter.
 
 ## Too Many IDs
-I commonly use frameworks where if you switch the order of the classes, everything explodes. It's infuriating. 
+I commonly use CSS files where if you switch the order of the classes, everything explodes. It's infuriating. 
 
 Some consider putting IDs on everything bad practice, I call it consistency. Here, I explore the downsides of adding a lot of IDs and seeing how it affects render time and traversing time. Does clouding up the DOM Namespace affect performance that much?
 * See render time and traversing time for 10 IDs, 10 classes, 10 unique tags and compare it to traversing time for 10,000 IDs
 * See render time and traversing time for 1 million IDs (If it even allows me to open it?)
+
+## Fast Push
+* Array.prototype.push is very slow. see if you can create a faster one.   
