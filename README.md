@@ -32,4 +32,4 @@ Some consider putting IDs on everything bad practice, I call it consistency. Her
 * See render time and traversing time for 1 million IDs (If it even allows me to open it?)
 
 ## Fast Push
-* Array.prototype.push is very slow. see if you can create a faster one. 
+* Array.prototype.push is very slow. see if you can create a faster one.   
