@@ -6,6 +6,11 @@ var HTMLWebpackPlugin = require('html-webpack-plugin');
 var DEVELOPMENT = process.env.NODE_ENV === 'development';
 var PRODUCTION = process.env.NODE_ENV === 'production';
 
+
+const externals = {
+    'jquery': 'jQuery' //jQuery is external and available at the global variable jquery, do not include
+  };
+
 var entry = PRODUCTION 
   ?   [ './src/index.js' ]
   :   [ 
@@ -14,6 +19,9 @@ var entry = PRODUCTION
         'webpack-dev-server/client?http://localhost:8080'
       ];
 
+// Plugins defines which external plugins we'll use. 
+// I think this differs from modules (below) because plugins are baked into webpack while modules are not.
+// We see plugins have the power to create files and modify files
 var plugins = PRODUCTION
   ? [
       new webpack.optimize.UglifyJsPlugin(),
@@ -41,16 +49,10 @@ const cssLoader = PRODUCTION
     })
   : ['style-loader', 'css-loader?localIdentName=' + cssIdentifier];
 
-
-
-module.exports = {
-  externals: {
-    'jquery': 'jQuery' //jQuery is external and available at the global variable jquery, do not include
-  },
-  devtool: 'source-map',
-  entry: entry,
-  plugins: plugins,
-  module: {
+// Mod defines the loaders we use. So for *.js$ files, we use babel.
+// For picture files, we use url-loader
+// For CSS files, we use 'cssLoader', which is css-loader?localIdentName=[hash:base64:10]
+const mod = {
     loaders: [{
       test: /\.js$/,
       loaders: ['babel-loader'],
@@ -64,10 +66,20 @@ module.exports = {
       loaders: cssLoader,
       exclude: '/node_modules/'
     }]
-  },
-  output: {
+  };
+
+const output = {
     path: path.join(__dirname, 'dist'),
     publicPath: PRODUCTION ? '/' : '/dist/',
-    filename: PRODUCTION ? 'bundle.hash:12.min.js' : 'bundle.js'
-  }
+    filename: PRODUCTION ? 'bundle.[hash:12].min.js' : 'bundle.js'
+  };
+
+
+module.exports = {
+  externals: externals,
+  devtool: 'source-map',
+  entry: entry,
+  plugins: plugins,
+  module: mod,
+  output: output
 }
