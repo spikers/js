@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fast Push</title>
+  <script>
+  var ONE_TEN = 10;
+  var ONE_HUNDRED = 100;
+  var ONE_THOUSAND = 1000;
+  var ONE_MILLION = 1000000;
+  var ONE_BILLION = 1000000000;
+
+  var iterations = ONE_TEN * ONE_MILLION;
+
+  /**
+  * Part 1: See how long an Array.prototype.push() takes using Math.random() 
+  * (This will be an artificially inflated number because Math.random() is relatively expensive).
+  **/
+  var arr1 = [];
+  var st1 = window.performance.now();
+
+  for (var i = 0; i < iterations; i++) {
+    var temp = Math.random();
+    arr1.push(temp);
+  }
+
+  var e1 = window.performance.now();
+  var timeTaken1 = e1 - st1;
+
+  console.log('Should be 1 million - 1', arr1.length);
+  console.log('This is the time taken for an array push', timeTaken1);
+
+
+  /**
+  * Part 2: Find a faster 'fast push' using Math.random() 
+  * (This will be an artificially inflated number because Math.random() is relatively expensive).
+  **/
+
+  // Method 2: Cast it into an array, then concatenate it. 
+  
+  /* I'm smoking something. This took forever. 1000 entries took 300ms. Very slow.
+  var arr2 = [];
+  var ob2 = {};
+  var st2 = window.performance.now();
+
+  for (var i = 0; i < ONE_THOUSAND; i++) {
+    var temp = [Math.random()];
+    arr2 = arr2.concat(temp);
+  }
+
+  var e2 = window.performance.now();
+  var timeTaken2 = e2 = st2;
+  console.log('Should be 1 million - 1', arr2.length);
+  console.log('Time to beat:', timeTaken1, '\nTime Actual2:', timeTaken2) 
+  */
+
+  // Method 3: Directly cast it into its position (array.length)
+  /*
+  var arr3 = [];
+  var ob3 = {};
+  var st3 = window.performance.now();
+
+  for (var i = 0; i < iterations; i++) {
+    var temp = Math.random();
+    arr3[arr3.length] = temp;
+  }
+
+  var e3 = window.performance.now();
+  var timeTaken3 = e3 = st3;
+  console.log('Should be 1 million - 1', arr3.length);
+  console.log('Time to beat:', timeTaken1, '\nTime Actual3:', timeTaken3) 
+  */
+
+
+  // Method 4: Use Object.keys();
+  /*
+  var arr4 = [];
+  var ob4 = {};
+  var st4 = window.performance.now();
+
+  for (var i = 0; i < iterations; i++) {
+    var temp = Math.random();
+    ob4[i] = temp;
+  }
+
+  arr4 = Object.keys(ob4);
+
+  var e4 = window.performance.now();
+  var timeTaken4 = e4 = st4;
+  console.log('Should be 1 million - 1', arr4.length);
+  console.log('Time to beat:', timeTaken1, '\nTime Actual 4:', timeTaken4);
+  */
+
+  // Method 5: Use JSON.parse();
+  var arr5 = [];
+  var str5 = '';
+  var st5 = window.performance.now();
+
+  str5 = '[';
+  for (var i = 0; i < iterations; i++) {
+    var temp = Math.random();
+    str5 = str5 + temp + ',';
+  }
+  str5 = str5.substring(0, str5.length - 2)
+  str5 += ']';
+
+  // console.log(str5);
+  arr5 = JSON.parse(str5);
+
+  var e5 = window.performance.now();
+  var timeTaken5 = e5 = st5;
+
+
+  // console.log(arr5);
+
+  console.log('Should be 1 million - 1', arr5.length);
+  console.log('Time to beat:', timeTaken1, '\nTime Actual 5:', timeTaken5);
+
+  </script>
+</head>
+<body>
+  <h1>Conclusion</h1>
+  <p>The time taken for Array.prototype.push is 400ms to 450ms per 10 million using Math.random.</p>
+
+  <h2>Method 2</h2>
+  <p>Bad idea. Terrible.</p>
+
+  <h2>Method 3</h3>
+  <p>Cast directly into the array.</p>
+  <p>Conclusion: arr3[arr3.length] = temp, this was slower by ~10%</p>
+
+  <h2>Method 4</h2>
+  <p>Use Object.keys() after pushing into an object.</p>
+  <p>Conclusion: Slower by ~30%</p>
+
+  <h2>Method 5</h2>
+  <p>Insert it into a string, then use JSON.stringify()</p>
+  <p>Conclusion: Slower by ~10%. I think I hit the memory limit. 15 million entries gave me an invalid string length, which is only like 100MB RAM, max. Strange. </p>
+</body>
+</html>
