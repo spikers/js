@@ -32,4 +32,4 @@ Some consider putting IDs on everything bad practice, I call it consistency. Her
 * See render time and traversing time for 1 million IDs (If it even allows me to open it?)
 
 ## Fast Push
-* Array.prototype.push is very slow. see if you can create a faster one.   
+* Update: This is hard. I don't think I can find one. I've tried out a few ways including: Objects, Strings, Array Creation (?) and none of it was faster. Strings was promising, but it kept giving me errors because I ran out of memory. ~Array.prototype.push is very slow. see if you can create a faster one.~   
