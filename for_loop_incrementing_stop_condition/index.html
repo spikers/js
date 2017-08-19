@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script> 
+  function test() {
+    var arr = ['a', 'b', 'c'];
+    for (var i = 0; i < arr.length; i++) {
+      if (arr.length < 10) {
+        arr.push('z');
+      }
+      console.log(arr[i]);
+    }
+  console.log('It started with 3 logs, but you should see 10 on Chrome.');
+  }
+</script>
+<h1>Changing the For-Loop Conditional</h1>
+<p>If you increment the for-loop condition while running through it, does it evaluate that every time?</p>
+<p>Answer: Yes. Check your console.</p>
+</body>
+</html>
