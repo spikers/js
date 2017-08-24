@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speed Test</title>
+  <script src="speedtest.js"></script>
+</head>
+<body>
+  <h1>Conclusion</h1>
+  <h2>Single Erasing: Hard to Tell</h2>
+  <p>Splice is the fastest. Splicing 1 Entry took 24ms.</p>
+  <p>Pop is the 2nd fastest. Popping 1 Time took 26ms.</p>
+  <p>Shift is the slowest. Shifting 1 Time took 29ms.</p>
+
+  <h2>Mass Erasing</h2>
+  <p>Splice is the fastest. Splicing the first 90,000 Entries took 28ms.</p>
+  <p>Shift is the 2nd fastest. Shifting 90,000 Times took 31ms.</p>
+  <p>Pop is the slowest. Popping 90,000 Times took 2272ms.</p>
+  <p>Note: Shifting felt really slow. It lagged, but the times were pretty good. The pop did NOT feel slow, so it can't be the array population that's the issue. I'll need to investigate further.</p>
+
+  <h2>Splice</h2>
+  <p>Splicing from the Middle (90,000 Entries): 26ms</p>
+  <p>Splicing from the Middle (1 Entry): 24ms</p>
+
+  <h2>Conclusion</h2>
+  <p>Splice seems to be the fastest. Pop and shift are comparable.</p>
+  <p>Note: For whatever reason, the FIRST test you run will be the fastest one. In order to be accurate, you must run each one individually and check the results. This was done by hand.</p>
+  
+</body>
+</html>
